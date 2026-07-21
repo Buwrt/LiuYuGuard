@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">流御守护</string>
+
+    <!-- 权限提示 -->
+    <string name="permission_no_root_title">权限不足</string>
+    <string name="permission_no_root_message">流御守护需要Root权限或Shizuku权限才能运行流量管控功能。\n\nRoot权限：完整功能，高精度内核级流量统计与管控\nShizuku权限：基础功能，弱精度流量管控\n\n请选择一种授权方式。</string>
+    <string name="permission_root_granted">Root权限已获取</string>
+    <string name="permission_shizuku_granted">Shizuku权限已获取</string>
+    <string name="permission_denied">无有效权限，功能已锁定</string>
+    <string name="permission_checking">正在检测运行环境权限…</string>
+
+    <!-- 前台服务通知 -->
+    <string name="notification_channel_traffic">流量管控服务</string>
+    <string name="notification_channel_guard">守护服务</string>
+    <string name="notification_channel_desc_traffic">流量管控核心服务运行中</string>
+    <string name="notification_channel_desc_guard">双守护服务运行中</string>
+    <string name="notification_title">流御守护运行中</string>
+    <string name="notification_text">正在守护您的流量安全</string>
+
+    <!-- 运行模式 -->
+    <string name="run_mode_root">Root 模式</string>
+    <string name="run_mode_shizuku">Shizuku 模式</string>
+    <string name="run_mode_locked">功能已锁定</string>
+
+    <!-- 页面标题 -->
+    <string name="page_dashboard">流量总看板</string>
+    <string name="page_app_detail">应用流量明细</string>
+    <string name="page_control_panel">联网控制面板</string>
+    <string name="page_charts">流量图表</string>
+    <string name="page_settings">设置中心</string>
+    <string name="page_camel">骆驼高精度模式</string>
+    <string name="page_sim_card">双卡流量统计</string>
+
+    <!-- 通用 -->
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="enable">启用</string>
+    <string name="disable">停用</string>
+    <string name="loading">加载中…</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="retry">重试</string>
+</resources>

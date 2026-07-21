@@ -1,0 +1,32 @@
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Keystore (安全起见不提交密钥)
+keystore/
+
+# Build outputs
+app/build/
+build/
+
+# Generated
+*.apk
+*.ap_
+*.dex
+*.class
+gen/
+bin/
+
+# Log files
+*.log
+
+# OS
+Thumbs.db
